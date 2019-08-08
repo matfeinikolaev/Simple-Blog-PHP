@@ -4,5 +4,5 @@ require 'database/Connection.php';
 require 'database/DataBaseEdit.php';
 
 return new DataBaseEdit(
-	Connection::make($config['database'])
+    Connection::make($config['database'])
 );
