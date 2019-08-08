@@ -1,7 +1,7 @@
 <?php
 require 'index.php';
 
-$DBedit->insert (
+$DBedit->insert(
     'Blog',['title' => $_POST['title'],
     'text' => $_POST['text'],
     'datetime'=>date("Y-m-d H:i:s")]
