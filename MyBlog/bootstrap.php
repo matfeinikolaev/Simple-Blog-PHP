@@ -1,8 +1,7 @@
 <?php
-$config = require 'config.php';
-require 'database/Connection.php';
-require 'database/DataBaseEdit.php';
 
-return new DataBaseEdit(
-    Connection::make ($config['database'])
-);
+App::bind('config', require 'src/config.php');
+
+App::bind('database', new DataBaseEdit(
+	Connection::make(App::get('config')['database'])
+));
