@@ -1,8 +1,0 @@
-body{text-align: center; 
-	font-family: sans-serif; 
-	background-color: #8aaae5}
-label, h2, .title, .text, .datetime{color:#ffffff;}
-#text{height:5em; margin-top: 5pt;
-	margin-bottom: 5pt;width: 16em; }
-#submit{margin-bottom: 30pt;}
-.datetime{font-size: 5pt; margin-bottom: 50pt;}
