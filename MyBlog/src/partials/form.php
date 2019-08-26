@@ -1,5 +1,6 @@
-<h2 class="h3 mb-3 font-weight-normal">Jot something down</h2>
-<form method="POST" action="/post">
+<?php require 'src/partials/header.php' ?>
+<form method="POST" action="/post" class="form-signin">
+  <h2 class="h3 mb-3 font-weight-normal">Jot something down</h2>
   <label class="sr-only" for='title'>Title</label>
   <input class="form-control" id="title" name="title" type="text" placeholder="The Title"><br>
   <label class="sr-only" for="text">Text</label>
