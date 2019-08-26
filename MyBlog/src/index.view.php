@@ -1,4 +1,3 @@
-<?php require 'partials/header.php' ?>
 <?php require 'partials/form.php' ?>
   <div class="container row mb-2">
     <?php foreach ($posts as $post): ?>

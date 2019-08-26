@@ -5,4 +5,4 @@ App::get('database')->insert(
     'datetime'=>date("Y-m-d H:i:s")]
 );
 
-header('Location: /');
+header('Location: /start');
