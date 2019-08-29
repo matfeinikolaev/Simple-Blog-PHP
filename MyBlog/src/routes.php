@@ -5,6 +5,6 @@ $router->define([
     'post'=>'src/post.php',
     'regist'=>'src/signup/regist.php',
     'check'=>'src/signup/check.php',
-    'signUp'=>'src/signup/sign-up.php',
-    'logIn'=>'src/signup/log-in.php'
+    'sign-up'=>'src/signup/sign-up.php',
+    'log-in'=>'src/signup/log-in.php'
 ]);
