@@ -10,7 +10,7 @@ class QueryBuilder
 
     public function selectAll($table)
     {
-        $statement = $this->pdo->prepare("select * from {$table} order by datetime desc");
+        $statement = $this->pdo->prepare("select * from {$table} order by date_time desc");
         $statement->execute();
         return $statement->fetchAll(PDO::FETCH_CLASS);
     }
