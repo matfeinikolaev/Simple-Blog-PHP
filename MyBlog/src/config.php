@@ -1,7 +1,7 @@
 <?php
 return [
     'database'=>[
-        'name'=>'MyBlog',
+        'name'=>'my_blog',
         'user'=>'matfei',
         'password'=>'12345678',
         'connection'=>'mysql:host=127.0.0.1',

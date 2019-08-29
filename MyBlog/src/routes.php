@@ -1,10 +1,10 @@
 <?php
 $router->define([
-	''=>'src/signup/entryPoint.php',
-	'start'=>'src/index.php',
+    ''=>'src/signup/entry-point.php',
+    'start'=>'src/index.php',
     'post'=>'src/post.php',
     'regist'=>'src/signup/regist.php',
     'check'=>'src/signup/check.php',
-    'signUp'=>'src/signup/signUp.php',
-    'logIn'=>'src/signup/logIn.php'
+    'signUp'=>'src/signup/sign-up.php',
+    'logIn'=>'src/signup/log-in.php'
 ]);
