@@ -1,5 +1,5 @@
 <?php 
-class DataBaseEdit
+class QueryBuilder
 {
     protected $pdo;
 
